@@ -25,4 +25,4 @@ function renderBook(book) {
     `
 }
 
-main()
+main()  //code exectution begins on this line, line 1-26 deals with defining functions that are not automatically executed
