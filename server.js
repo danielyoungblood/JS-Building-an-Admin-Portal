@@ -105,4 +105,4 @@ async function saveBooks(books) {
   await Fs.writeFile(DB_PATH, JSON.stringify({ books }, null, 2));
 }
 
-main(); //this is the actual starting point after the code gets executed after line 110 & 111
+main(); //this is the actual starting point of the code which calls the function called main, main function calls loadBooks and saveBooks functions
