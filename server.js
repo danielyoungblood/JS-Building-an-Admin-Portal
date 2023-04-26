@@ -79,7 +79,7 @@ async function main() {
         error: true,
         message: `Could not find a book with an id of ${req.body.id}`,
       });
-    books = books.filter((book) => book !== bookToDelete);hiy
+    books = books.filter((book) => book !== bookToDelete);
     await saveBooks(books);
     res.json(bookToDelete);
   });
